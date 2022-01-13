@@ -1,0 +1,23 @@
+--1.
+select 
+ *
+from country as co
+inner join city as ci on (co.country_id = ci.country_id);
+
+--2.
+select 
+ first_name,
+ last_name
+from customer as c
+inner join payment as p on (c.customer_id = p.customer_id);
+
+--3.
+select 
+ first_name,
+ last_name
+from customer as c
+inner join rental as r on (c.customer_id = r.customer_id);
+
+-- 2. ve 3. sorularda customer_id den başka eşleşen kolon yok bilginize.
+
+
