@@ -1,0 +1,22 @@
+--1.
+select 
+ ci.city,
+ co.country
+from country as co
+left join city as ci on (co.country_id = ci.country_id);
+
+--2.
+select 
+ p.payment_id,
+ c.first_name,
+ c.last_name
+from customer as c
+right join payment as p on (c.customer_id = p.customer_id);
+
+--3.
+select
+ r.rental_id,
+ c.first_name,
+ c.last_name
+from customer as c
+full join rental as r on (c.customer_id = r.customer_id);
