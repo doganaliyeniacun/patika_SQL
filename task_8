@@ -1,0 +1,75 @@
+--1.
+CREATE TABLE EMPLOYEE(
+ID INTEGER,
+NAME VARCHAR(50),
+BIRTHDAY DATE,
+EMAIL VARCHAR(50)
+);
+
+--2.
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (1, 'Sloan', '2021-07-07', 'sboucher0@devhub.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (2, 'Ofella', '2021-08-07', 'obuney1@ted.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (3, 'Andre', '2021-03-09', 'agallone2@tinyurl.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (4, 'Hilliard', '2021-03-12', 'hzanolli3@stumbleupon.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (5, 'Elissa', '2021-05-21', 'esweating4@ft.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (6, 'Rasia', '2021-06-15', 'rfrede5@java.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (7, 'Jonathan', '2021-07-16', 'jjohl6@reddit.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (8, 'Tomas', '2021-07-11', 'trobbins7@vinaora.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (9, 'Sherlock', '2021-07-29', 'stwopenny8@webs.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (10, 'Megan', '2021-11-04', 'mhovenden9@cloudflare.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (11, 'Rosalia', '2021-09-16', 'rfruchona@china.com.cn');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (12, 'Barbi', '2021-02-08', 'bodgersb@prlog.org');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (13, 'Leisha', '2021-07-24', 'lspinoc@tripadvisor.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (14, 'Carlyn', '2021-02-01', 'cschermed@studiopress.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (15, 'Darcey', '2021-04-13', 'dserjeantsone@taobao.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (16, 'Gordon', '2021-05-13', 'gburnhillf@moonfruit.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (17, 'Cyrus', '2021-09-30', 'ckeirlg@furl.net');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (18, 'Lemuel', '2021-07-18', 'ldraysonh@elegantthemes.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (19, 'Merwin', '2021-06-14', 'mrockcliffi@naver.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (20, 'Manny', '2021-06-21', 'mmoundj@ibm.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (21, 'Andromache', '2021-09-24', 'abrantk@phpbb.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (22, 'Christoforo', '2021-11-27', 'cbilovskyl@gizmodo.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (23, 'Brock', '2021-11-17', 'bmartynovm@yellowpages.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (24, 'Zita', '2021-07-07', 'zvarndalln@psu.edu');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (25, 'Edwin', '2021-06-13', 'etesimono@constantcontact.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (26, 'Kennie', '2021-05-24', 'kchateaup@amazon.co.uk');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (27, 'Gael', '2021-08-07', 'gquilliamq@squidoo.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (28, 'Von', '2021-10-05', 'vlannenr@bbc.co.uk');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (29, 'Thurston', '2021-07-19', 'twaless@amazon.de');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (30, 'Madalyn', '2021-09-14', 'mdochertyt@icio.us');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (31, 'Desiree', '2021-02-25', 'dshireru@freewebs.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (32, 'Amalle', '2021-11-16', 'avigursv@free.fr');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (33, 'Naoma', '2021-02-28', 'nbolducw@behance.net');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (34, 'Kittie', '2021-06-03', 'khindrickx@about.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (35, 'Chad', '2021-01-27', 'cjoulesy@linkedin.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (36, 'Carce', '2021-03-09', 'clethardyz@imageshack.us');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (37, 'Wylma', '2021-04-04', 'wtampion10@nasa.gov');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (38, 'Elli', '2021-10-07', 'eive11@nbcnews.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (39, 'Sadella', '2021-10-27', 'stunnicliffe12@t-online.de');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (40, 'Reinhold', '2021-07-06', 'rpiatek13@sohu.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (41, 'Darrin', '2021-10-20', 'dcattrall14@marketwatch.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (42, 'Felice', '2021-10-11', 'fsharples15@yelp.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (43, 'Sidonnie', '2021-07-15', 'svautier16@phoca.cz');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (44, 'Patrick', '2021-12-26', 'pwathan17@nifty.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (45, 'Brook', '2021-03-18', 'bmulchrone18@un.org');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (46, 'Alysia', '2021-01-29', 'avesco19@foxnews.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (47, 'Murial', '2021-04-26', 'mlindelof1a@google.co.uk');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (48, 'Brucie', '2022-01-06', 'bmostyn1b@nbcnews.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (49, 'Alma', '2021-07-03', 'acassell1c@fotki.com');
+insert into EMPLOYEE (id, NAME, BIRTHDAY, EMAIL) values (50, 'Gianni', '2021-12-26', 'gjelf1d@aol.com');
+
+--3.
+UPDATE EMPLOYEE SET NAME = 'SLOAN',BIRTHDAY = '2022-01-12',EMAIL = 'SZBZ@GMAIL.COM' WHERE ID = 6;
+UPDATE EMPLOYEE SET NAME = 'SLOAN',BIRTHDAY = '2022-01-12',EMAIL = 'SZBZ@GMAIL.COM' WHERE ID = 7;
+UPDATE EMPLOYEE SET NAME = 'SLOAN',BIRTHDAY = '2022-01-12',EMAIL = 'SZBZ@GMAIL.COM' WHERE ID = 8;
+UPDATE EMPLOYEE SET NAME = 'SLOAN',BIRTHDAY = '2022-01-12',EMAIL = 'SZBZ@GMAIL.COM' WHERE ID = 9;
+UPDATE EMPLOYEE SET NAME = 'SLOAN',BIRTHDAY = '2022-01-12',EMAIL = 'SZBZ@GMAIL.COM' WHERE ID = 10;
+--4.
+DELETE FROM EMPLOYEE WHERE ID = 1;
+DELETE FROM EMPLOYEE WHERE ID = 2;
+DELETE FROM EMPLOYEE WHERE ID = 3;
+DELETE FROM EMPLOYEE WHERE ID = 4;
+DELETE FROM EMPLOYEE WHERE ID = 5;
+ 
+
+
